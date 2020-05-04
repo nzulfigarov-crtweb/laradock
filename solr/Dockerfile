@@ -4,6 +4,7 @@ FROM solr:${SOLR_VERSION}
 ARG SOLR_DATAIMPORTHANDLER_MYSQL=false
 ENV SOLR_DATAIMPORTHANDLER_MYSQL ${SOLR_DATAIMPORTHANDLER_MYSQL}
 askjdhjasdhkjasdsadas
+asjkhdaldjlaks
 # download mysql connector for dataimporфывфвфывthandler
 RUN if [ ${SOLR_DATAIMPORTHANDLER_MYSQL} = true ]; then \
     curl -L -o /tmp/mysql_connector.tar.gz "https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.45.tar.gz" \
